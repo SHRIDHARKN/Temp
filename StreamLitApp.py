@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 from keras.models import load_model
 import joblib
-import sklearn
 
 #Interface
 st.markdown('## Hotel Check In Prediction')
