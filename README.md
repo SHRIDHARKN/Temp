@@ -31,3 +31,4 @@ ii.	Handling missing values: If the data set has large number of missing values,
       1.	Drop the features that have large number of missing values if they are not a good predictor.
       2.	Treat the missing values as a separate category. Categorize the features with available data into groups. Whenever there is no information, then a new category called “No Info Available” can be made. Then one hot encode the feature so that it can now be used in the model.
       3.	Impute the missing values using nearest neighbors method( not recommended if missing data is very high in number).
+      
